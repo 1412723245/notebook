@@ -18,3 +18,6 @@ ssh-keygen -t rsa -C ""
 如果已经将GitHub上的仓库clone到本地的话，就不需要执行git remote add origin yourgit.git
 之后执行git push -u origin master
 ```
+
+<font color=red size=6>notice:</font>
+> 在上传本地文件之前，需要将本地文件加到git仓库中，我们通过git add .(代表的是全部)加入文件，通过git commit -m "注释"进行提交。之后在上传

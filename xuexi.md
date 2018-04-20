@@ -1,12 +1,12 @@
 # <center>markdown语法指南</center> #
-##基本技能##
-###代码###
+## 基本技能 ##
+### 代码 ###
 如果你只想高亮语句中的某个函数名可以这样子做
-```
+``` 
 $(document).ready(function () {  
     alert('hello world');  
 });
-```
+ ```
 <h1 id='1'>跳</h1>
 标题一
 ======

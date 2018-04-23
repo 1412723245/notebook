@@ -1,7 +1,6 @@
 #<center>通过git上传文件到GitHub</center>#
 - 1打开git
 - 2将GitHub与git绑定
-
 ```
 git config --global user.name "github用户名"
 git config --global user.email "github注册的邮箱"

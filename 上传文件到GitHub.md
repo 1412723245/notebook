@@ -20,3 +20,11 @@ ssh-keygen -t rsa -C ""
 
 <font color=red size=6>notice:</font>
 > 在上传本地文件之前，需要将本地文件加到git仓库中，我们通过git add .(代表的是全部)加入文件，通过git commit -m "注释"进行提交。之后在上传
+
+## 采坑 ##
+> 
+1. [rejected] master -> master (fetch first)(non-fast forward)  
+```
+原因：远程的仓库更新但是本地没更新
+解决方法：git pull origin master（将远程代码更新到下来）
+```
